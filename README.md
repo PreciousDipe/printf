@@ -1,6 +1,6 @@
 # The printf Project
 ## Introduction 
-The printf function sends formatted output to stdout. This project was curated for learning purposes by Eniola Olawunmi and Queen Unogwu in the Holberton & Alx scholarship program <strong>Cohort 9.</strong>
+The printf function sends formatted output to stdout. This project was curated for learning purposes by Ogundipe Precious and Hadizat Abdulhakieem in the Holberton & Alx scholarship program <strong>Cohort 9.</strong>
 <br>
 ## Description 
 printf (print formatted) in C, writes out a cstring to stdout (standard output). The provided cstring may contain format specifiers( beginning with % in the cstring).
@@ -35,15 +35,6 @@ The main files will include your main header file (main.h): #include main.h
 
 Prototype: `int _printf(const char *format, ...);`
 Use - General: `_printf("format string", var1, var2, ...);`
-
-Examples:
-
-* Basic String: _printf("%s Hello, World!");`
-
-    - Output: Hello, World!
-* Print integers: _printf("This is an array element: arr[%d]:%c", 32, arr[32]);`
-
-    - Output: This is an array element arr[32]:A
 
 Many other specifiers and flags were added and by combinig those the _printf() function generate a different ouput. The following list are the specifiers and flags allowed.
 
